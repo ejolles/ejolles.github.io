@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.more{
+    display: none;
+}
+.post{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post:not(:last-child){
+    margin-bottom: 30px;
+}
+
+button{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #e41d3f;
+    color: white;
+    border:none;
+    outline: none;
+    padding: 8px 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    color: black;/*#3525af;*/
+    position: relative;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.title:before{
+    content: "";
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 50px;
+    height: 3px;
+    background: black;/*#3525af;*/
+}
+
+.biography{
+    padding: 30px;
+    color: #292b2f;
+}
+
+.biography .education{
+    margin-top: 30px;
+}
+
+.biography .li_wrap{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.biography .li_wrap .date {
+    width: 125px;
+    color: black;/*#3525af;*/
+}
+
+.biography .li_wrap .info{
+    width: calc(100%  - 125px);
+    padding-left: 25px;
+    position: relative;
+}
+
+.biography .li_wrap .info_title{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: black;/*#3525af;*/
+}
+
+.biography .li_wrap .info_com{
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.biography .li_wrap .info_link{
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.biography .li_wrap .info_cont{
+    margin-top: 15px;
+}
+
+.biography .li_wrap .info:before{
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background: black;/*#3525af;*/
+    border-radius: 50%;
+}
+
+.biography .li_wrap .info:after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    width: 2px;
+    height: 90%;
+    background: black;/*#3525af;*/
+}
+
+h2 a img {
+    height: 22px;
+    margin-bottom: 5px;
+}
+
+/* IMAGE */
+
+
+
+.nav-logo {
+    width: 150px;
+    height: auto;
+}
+
+.footer-logo {
+    width: auto;
+    height: 35px;
+    vertical-align: middle;
+}
+
+#avatar {
+    width: 250px;
+    height: auto; 
+    margin: 0 auto; 
+   }
+
+#avatar2 {
+width: 250px;
+height: auto; 
+margin: 0 auto; 
+}   
+
+div.imgIcon img {
+    width: 74px;
+    height: auto;
+}
+/* IMAGE */
+
+/* ICON */
+
+.opacity-affect:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.fab,
+.far,
+.fas {
+    font-size: 70px;
+    padding: 5px;
+}
+
+.fa-github,
+.fa-file-pdf,
+.fa-link
+{
+    font-size: 30px;
+    text-align: center;
+}
+
+.fa-file-pdf {
+    margin-left: 3px;
+}
+
+
+.icon-sm {
+    font-size: 40px;
+}
+
+.icon-text-git {
+    margin-left: 5px;
+    position: relative;
+    top: -5px;
+
+}
+
+.icon-text-pdf {
+    margin-left: 14px;
+    position: relative;
+    top: -5px;
+
+}
+
+
+
+/* ICON */
+.image-icon {
+    width: auto;
+    height: 100px;
+    padding: 10px 0;
+}
+/* ICON */
+
+
+/* LIST */
+.text-padding li {
+    margin: 15px 0;
+}
+
+
+
+a:link {
+    color: lightslategrey;
+}
+/* visited link */
+a:visited {
+    color: #095484;
+}
+
+
+/* LIST */
+
+/* button style */
+.btn {
+    margin: 10px 0;
+}
+
+a.button-reset {
+    color: #fff;
+    text-decoration: none;
+}
+
+#btn2 {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+#btn3 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#btn4 {
+    padding-left: 28px;
+    padding-right: 28px;
+}
+/* button style */
+
+
+/* footer */
+footer {
+    padding: 30px 0;
+}
+
+
+
+h6 {
+    color: #000000;
+    padding-top: 10px;
+}
+
+.footer-link li a {
+    font-size: 1.5rem;
+    color: #000000;
+
+
+} 
+
+
+/* footer */
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    #avatar2 {
+        margin-left: 70px;
+        margin-right: 100px;
+       }
+
+       .hide {
+        display: none;
+    }   
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }
