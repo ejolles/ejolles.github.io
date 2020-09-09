@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7899b6ff-5a3e-4096-9a18-b7ef8b8b1d8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/HTML5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/go.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/java.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/js.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mysql.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/python.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/scala.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/spark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/ATPETs_Project_1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/ATPETs_Project_2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/ML_Project2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/SHS_report.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/Website_Fingerprint.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/dataviz_process_book.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/neut_project.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -77,6 +60,26 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="818392640">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="67" />
+          <entry key="html" value="255" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="67" />
+          <entry key="HTML" value="255" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
@@ -85,11 +88,12 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+                <state relative-caret-position="11459">
+                  <caret line="770" column="10" selection-start-line="770" selection-start-column="10" selection-end-line="770" selection-end-column="10" />
                   <folding>
                     <element signature="n#style#0;n#i#0;n#h3#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#i#0;n#h3#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#i#0;n#h3#0;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -153,8 +157,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/CSS/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
-                  <caret line="231" column="26" selection-start-line="231" selection-start-column="26" selection-end-line="231" selection-end-column="26" />
+                <state relative-caret-position="461">
+                  <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -196,6 +200,8 @@
       <find>blank</find>
       <find>im</find>
       <find>info_com</find>
+      <find>icon-s</find>
+      <find>softwa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -205,8 +211,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/CSS/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/CSS/style.css" />
       </list>
     </option>
   </component>
@@ -216,9 +222,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="2560" />
-    <option name="height" value="1440" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -228,7 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,11 +246,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -284,14 +292,15 @@
       <workItem from="1599235665646" duration="8644000" />
       <workItem from="1599504662070" duration="3494000" />
       <workItem from="1599569618993" duration="8662000" />
+      <workItem from="1599656546627" duration="4975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34366000" />
+    <option name="totallyTimeSpent" value="39341000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16857031" />
@@ -320,15 +329,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/mrw.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/bootstrap.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/brackets.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/mrw.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/bootstrap.svg" />
+    <entry file="file://$PROJECT_DIR$/img/brackets.svg" />
     <entry file="file://$PROJECT_DIR$/data/projects.js" />
     <entry file="file://$PROJECT_DIR$/images/bootstrap.svg" />
     <entry file="file://$PROJECT_DIR$/images/python.svg" />
@@ -336,6 +339,21 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images/scala.svg" />
+    <entry file="file://$PROJECT_DIR$/docs/mands_email_demo.html" />
+    <entry file="file://$PROJECT_DIR$/img/aj.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/cn.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/Code.svg" />
+    <entry file="file://$PROJECT_DIR$/img/css-3.svg" />
+    <entry file="file://$PROJECT_DIR$/img/cyberduck.png" />
+    <entry file="file://$PROJECT_DIR$/img/demo2.png" />
+    <entry file="file://$PROJECT_DIR$/img/demo3.png" />
+    <entry file="file://$PROJECT_DIR$/img/demo4.png" />
+    <entry file="file://$PROJECT_DIR$/img/Dreamweaver.png" />
+    <entry file="file://$PROJECT_DIR$/img/favicon.ico" />
+    <entry file="file://$PROJECT_DIR$/img/ge.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/Galaxy-bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/Logo.png" />
+    <entry file="file://$PROJECT_DIR$/img/resume.png" />
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -360,80 +378,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/mands_email_demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3075">
-          <caret line="205" column="12" selection-start-line="205" selection-start-column="12" selection-end-line="205" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#tr#1;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#2;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/album.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/aj.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/cn.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Code.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/css-3.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/cyberduck.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/demo2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/demo3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/demo4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Dreamweaver.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/ge.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Galaxy-bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/resume.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="11459">
+          <caret line="770" column="10" selection-start-line="770" selection-start-column="10" selection-end-line="770" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#i#0;n#h3#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#h3#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#h3#0;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
         </state>
       </provider>
     </entry>
