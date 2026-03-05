@@ -3,6 +3,17 @@
 body {
     margin: 0;
     padding: 0;
+    padding-top: 56px; /* Height of navbar */
+}
+
+/* Fixed Navbar */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+body.night-mode .navbar {
+    box-shadow: 0 2px 4px rgba(255,255,255,0.1);
 }
 
 .title {
@@ -109,8 +120,17 @@ h2 a img {
 
 #avatar {
     width: 250px;
-    height: auto;
-    margin: 0 auto;
+    height: 250px;
+    margin: 0 auto 30px auto;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #e0e0e0;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+body.night-mode #avatar {
+    border-color: #2a2a2a;
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.05);
 }
 
 .opacity-affect:hover {
@@ -235,4 +255,92 @@ ul.courses-list > li {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
+}
+
+/* Night Mode Styles */
+body.night-mode {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+body.night-mode .navbar {
+    background-color: #2a2a2a !important;
+}
+
+body.night-mode .navbar-brand,
+body.night-mode .nav-link {
+    color: #e0e0e0 !important;
+}
+
+body.night-mode .nav-link:hover {
+    color: #ffffff !important;
+}
+
+body.night-mode .jumbotron {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+}
+
+body.night-mode .biography {
+    color: #e0e0e0;
+}
+
+body.night-mode .title {
+    color: #e0e0e0;
+}
+
+body.night-mode .title:before {
+    background: #e0e0e0;
+}
+
+body.night-mode .biography .li_wrap .date {
+    color: #e0e0e0;
+}
+
+body.night-mode .biography .li_wrap .info_title {
+    color: #e0e0e0;
+}
+
+body.night-mode .biography .li_wrap .info:before {
+    background: #e0e0e0;
+}
+
+body.night-mode .biography .li_wrap .info:after {
+    background: #e0e0e0;
+}
+
+body.night-mode footer {
+    background-color: #2a2a2a !important;
+}
+
+body.night-mode a:link,
+body.night-mode a:visited {
+    color: #6ab7ff;
+}
+
+body.night-mode ul.courses-list > li {
+    background: #2a2a2a;
+    box-shadow: 0.25rem 0.25rem 0.6rem rgba(255, 255, 255, 0.05);
+}
+
+#night-mode-toggle {
+    margin-left: 10px;
+    padding: 0.2rem 0.4rem;
+    font-size: 0.75rem;
+    line-height: 1;
+}
+
+#night-mode-toggle i {
+    font-size: 0.875rem;
+}
+
+body.night-mode #night-mode-toggle {
+    background-color: #e0e0e0;
+    color: #1a1a1a;
+    border-color: #e0e0e0;
+}
+
+body.night-mode #night-mode-toggle:hover {
+    background-color: #ffffff;
+    border-color: #ffffff;
 }
