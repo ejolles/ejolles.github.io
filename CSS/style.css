@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
 
+html {
+    scroll-padding-top: 80px; /* Offset for fixed navbar */
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -343,4 +348,74 @@ body.night-mode #night-mode-toggle {
 body.night-mode #night-mode-toggle:hover {
     background-color: #ffffff;
     border-color: #ffffff;
+}
+
+/* Publication title styling */
+.publication-title {
+    text-decoration: underline;
+    cursor: pointer;
+    color: inherit;
+}
+
+.publication-title:hover {
+    opacity: 0.7;
+}
+
+.abstract {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-left: 3px solid black;
+    border-radius: 3px;
+}
+
+body.night-mode .abstract {
+    background-color: #2d2d2d;
+    border-left: 3px solid #ffffff;
+}
+
+.abstract-text {
+    margin: 0;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+/* Contact box styling */
+.contact-box {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+body.night-mode .contact-box {
+    background-color: #2d2d2d;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 8px rgba(255,255,255,0.1);
+}
+
+.contact-box i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.contact-box a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+body.night-mode .contact-box a {
+    color: #ffffff;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
 }

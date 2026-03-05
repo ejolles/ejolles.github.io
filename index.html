@@ -51,10 +51,10 @@
                             <a class="nav-link" href="#experience">Experience</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#supervision">Supervision</a>
+                            <a class="nav-link" href="#teaching">Teaching</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#teaching">Teaching</a>
+                            <a class="nav-link" href="#supervision">Supervision</a>
                         </li>
                         <li class="nav-item">
                             <button id="night-mode-toggle" class="btn btn-sm btn-outline-secondary" title="Toggle Night Mode">
@@ -100,6 +100,11 @@
                     In my free time, I enjoy flying planes, biking, hiking, and skiing.
                 </p>
 
+                <div class="contact-box">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:eric.jolles@epfl.ch">eric.jolles@epfl.ch</a>
+                </div>
+
                 <!--<p align="center">Eager to work with an ambitious company that can utilise both my creative problem
                     solving to think outside the box and analytical skills to problem solve.</p>
                     -->
@@ -125,9 +130,24 @@
                                 2026
                             </div>
                             <div class="info">
+                                <p class="info_title">
+                                    <span class="publication-title" onclick="toggleAbstract('abstract1')">Website Fingerprinting on Nym: Attacks and Defenses</span>
+                                </p>
+                                <div id="abstract1" class="abstract" style="display: none;">
+                                    <p class="abstract-text">
+                                        Website fingerprinting (WF) enables a passive eavesdropper to infer which web page a client is visiting, even when communications are encrypted or anonymized.
+                                        In this paper, we study the vulnerability to website fingerprinting of Nym, a mix network based on the Loopix design that enables users to browse the Web.
+                                        We show that although Nym adds delays and cover traffic to change packet patterns compared to Tor, it still leaks features that website fingerprinting attacks can exploit in both closed‑ and open‑world settings.
+                                        We carry out an in-depth analysis of the effectiveness of Nym's obfuscation mechanisms, originally designed to provide anonymity in messaging, in thwarting website fingerprinting.
+                                        We show that mix delays, counterintuitively, not only fail to protect against website fingerprinting but actually make the attack more effective as the mix delays make it easier to distinguish incoming from outgoing packets.
+                                        We also demonstrate that the current cover traffic strategy of Nym is not effective in thwarting website fingerprinting attacks unless it imposes a large overhead. 
+                                        To address these limitations, we design two new WF defenses based on Nym's existing obfuscation mechanisms that significantly reduce WF effectiveness.
+                                        The first defense introduces cover traffic to match the bursty nature of real-world web traffic, reducing the F1 score to 0.39 (compared to 0.65 obtained by similar defenses applied on Tor) at moderate overhead increase. 
+                                        The second defense plummets the F1 score to 0.06 by channeling web traffic via Nym's constant traffic capabilities, at the cost of bandwidth.
+                                    </p>
+                                </div>
                                 <p class="info_cont">
                                     <strong>Jollès, E.</strong>, Wicky, S., Piotrowska, A. M., Halpin, H., & Troncoso, C. (2026). 
-                                    <br />Website Fingerprinting on Nym: Attacks and Defenses. 
                                     <br />In <em>Privacy Enhancing Technologies Symposium - PETS</em>.
                                 </p>
                                 <p class="info_link">
@@ -142,9 +162,16 @@
                                 2023
                             </div>
                             <div class="info">
+                                <p class="info_title">
+                                    <span class="publication-title" onclick="toggleAbstract('abstract2')">Building Collaborative Cybersecurity for Critical Infrastructure Protection: Empirical Evidence of Collective Intelligence Information Sharing Dynamics on ThreatFox</span>
+                                </p>
+                                <div id="abstract2" class="abstract" style="display: none;">
+                                    <p class="abstract-text">
+                                        This article describes three collective intelligence dynamics observed on ThreatFox, a free platform operated by abuse.ch that collects and shares indicators of compromise. These three dynamics are empirically analyzed with an exclusive dataset provided by the sharing platform. First, participants' onboarding dynamics are investigated and the importance of building collaborative cybersecurity on an established network of trust is highlighted. Thus, when a new sharing platform is created by abuse.ch, an existing trusted community with 'power users' will migrate swiftly to it, in order to enact the first sparks of collective intelligence dynamics. Second, the platform publication dynamics are analyzed and two different superlinear growths are observed. Third, the rewarding dynamics of a credit system is described — a promising incentive mechanism that could improve cooperation and information sharing in open-source intelligence communities through the gamification of the sharing activity. Overall, our study highlights future avenues of research to study the institutional rules enacting collective intelligence dynamics in cybersecurity. Thus, we show how the platform may improve the efficiency of information sharing between critical infrastructures, for example within Information Sharing and Analysis Centers using ThreatFox. Finally, a broad agenda for future empirical research in the field of cybersecurity information sharing is presented — an important activity to reduce information asymmetry between attackers and defenders.
+                                    </p>
+                                </div>
                                 <p class="info_cont">
                                     <strong>Jollès, E.</strong>, Gillard, S., Percia David, D., Strohmeier, M., & Mermoud, A. (2023). 
-                                    <br />Building Collaborative Cybersecurity for Critical Infrastructure Protection: Empirical Evidence of Collective Intelligence Information Sharing Dynamics on ThreatFox. 
                                     <br />In International Conference on Critical Information Infrastructures Security (CRITIS). 
                                 </p>
                                 <p class="info_link">

@@ -30,3 +30,13 @@ $(document).ready(function(){
         $('#night-mode-toggle').html('<i class="fas fa-sun"></i>');
     }
 });
+
+// Toggle abstract visibility
+function toggleAbstract(abstractId) {
+    var abstract = document.getElementById(abstractId);
+    if (abstract.style.display === "none") {
+        abstract.style.display = "block";
+    } else {
+        abstract.style.display = "none";
+    }
+}
